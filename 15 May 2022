@@ -1,0 +1,106 @@
+Q1 . Try to extract data from index one to index 300 with a jump of 3
+A1 . q=('qwerty')
+     q[1:300:3]
+     'wt'
+
+
+
+
+Q2 . Try to reverse a string without using reverse function 
+A2 .q=('qwerty') 
+    q[5::-1]
+
+
+
+
+
+
+Q3 . Try to split a string after conversion of entire string in uppercase 
+A3 .w=("""On 24 February 2022, Russia invaded Ukraine, marking a steep escalation of the Russo-Ukrainian War, which had begun in 2014. 
+The invasion has caused Europe's largest refugee crisis since World War II,
+    with more than 6.4 million Ukrainians fleeing the country[18] and a third of the population displaced""")
+    
+    
+    w.upper()
+    w=w.upper()
+    w.split()
+    
+    
+
+
+
+Q4 . try to convert the whole string into lower case 
+A4 . w.lower()
+
+
+
+Q5 . Try to capitalize the whole string 
+A5 .  w=w.lower()
+      w.capitalize()
+
+
+
+
+
+Q6 . Write a diference between isalnum() and isalpha()
+A6 . This code checks if the given value consist alphabateical and numbers. ---(isalnum)
+     This code checks if the given value consist of only alphabets or not.-----(isalpha)
+
+
+
+
+
+Q7 . Try to give an example of expand tab
+A7 . e="Hello\tthis\tassignment\tgives\tgood\tpractice"
+     e.expandtabs()
+     
+Output ->>>>'Hello   this    assignment      gives   good    practice'
+
+
+
+Q8 . Give an example of strip , lstrip and rstrip 
+A8 . r="      I like today,s weather      "
+     r.lstrip()
+Output->>>>> 'I like today,s weather      '
+     r.rstrip()
+Output->>>>>'      I like today,s weather'
+
+
+
+Q9 . Replace a string charecter by another charector by taking your own example "sudhanshu"
+A9 .  t="sudhanshu"
+      t="ranjit"
+
+
+
+
+Q10 . Try  to give a defination of string center function with and exmple 
+A10 . t="ranjit"
+      t.center(15,'%')
+ output->>>>>'%%%%%ranjit%%%%'
+ 
+ String Center puts the value of string in between the specified spaces (15 mentioned here) with fills left and right with the special character '%'
+
+
+
+
+Q11 . Write your own definition of compiler and interpretor without copy paste form internet in your own language
+A11 . Compilers - Translate and execute code to machine language at once i.e. whole at once
+      Interpreter - Translates code line by line, hence is slower than compiler
+
+
+
+
+
+Q12 . Python is a interpreted of compiled language give a clear ans with your understanding 
+A12 . I guess that means that python translates code to HLL line by line
+
+
+
+
+
+Q13 . Try to write a usecase of python with your understanding .
+data analysis as mostly python is favourable language to get queries from sql and perform required operations
+
+
+
